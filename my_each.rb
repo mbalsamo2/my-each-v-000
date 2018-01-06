@@ -1,4 +1,7 @@
+require 'pry'
+
 def my_each(array)
+  binding.pry
   i = 0
 
   while i < array.length
